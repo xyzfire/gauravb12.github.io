@@ -1,0 +1,53 @@
+a
+	{
+	color:white;
+	}
+
+a:link
+	{
+	text-decoration:none;
+	font-family:arial;
+	font-size:20px;
+	color:white;
+	}
+#home
+	{
+	font-size:25px;
+	font-family:forte;
+	color:grey;
+	}
+#name
+	{
+	font-family:georgia;
+	font-size:50px;
+	}
+#intro
+	{
+	font-size:25px;
+	font-family:cambria;
+	}
+#splink
+	{
+	text-decoration:none;
+	font-family:cambria;
+	font-size:20px;
+	color:grey;
+	}
+#academics
+	{
+	font-family:constantia;
+	font-size:30px;
+	font-weight:bold;
+	}
+#resume
+	{
+	font-family:constantia;
+	font-size:30px;
+	font-weight:bold;
+	}
+#contact
+	{
+	font-family:constantia;
+	font-size:30px;
+	font-weight:bold;
+	}
