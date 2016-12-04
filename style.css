@@ -1,53 +1,24 @@
-a
-	{
-	color:white;
-	}
-
-a:link
-	{
-	text-decoration:none;
-	font-family:arial;
-	font-size:20px;
-	color:white;
-	}
-#home
-	{
-	font-size:25px;
-	font-family:forte;
-	color:grey;
-	}
-#name
-	{
-	font-family:georgia;
-	font-size:50px;
-	}
-#intro
-	{
-	font-size:25px;
-	font-family:cambria;
-	}
-#splink
-	{
-	text-decoration:none;
-	font-family:cambria;
-	font-size:20px;
-	color:grey;
-	}
-#academics
-	{
-	font-family:constantia;
-	font-size:30px;
-	font-weight:bold;
-	}
-#resume
-	{
-	font-family:constantia;
-	font-size:30px;
-	font-weight:bold;
-	}
-#contact
-	{
-	font-family:constantia;
-	font-size:30px;
-	font-weight:bold;
-	}
+body{font-family:'Raleway', sans-serif;}
+.navbar{font-weig1ht: bold; font-size: 15px; background1-color: #030104;}
+.nvb{font-size: 40px;}
+.fa{color:#666664;}
+.fa-stack-1x:hover{color:black;}
+.fa-angle-double-down{color:white;}
+.headTag{font-family: 'Pacifico', cursive; font-size: 40px;}
+.cont{font-family: 'Pontano Sans', sans-serif; font-size: 25px;}
+.contHead{font-family: 'Play', sans-serif; font-size: 30px;}
+.cont-project{font-size:20px; font-family: 'Pontano Sans', sans-serif;}
+.interest-block:hover{background-color:grey;}
+.resume-link{text-decoration: none; font-family: 'Satisfy', cursive; font-weight:bold; font-size:30px;}
+.foot{text-align: center; font-family: 'Pontano Sans', sans-serif; font-size:18px; color: #d14b04; background-color: #030104;}
+#home {padding-top:100px; background-image: url('typewriter.png'); background-repeat: no-repeat; background-size: cover;}
+#about {padding-top:100px;text-align: center;}
+#skills {padding-top:100px;text-align: center; background-color: #f9f9d1;}
+#projects {padding-top:100px;text-align: center;}
+#resume {padding-top:100px;text-align: center; background-color: #f4e6e6;}
+#contact {padding-top:100px;text-align: center;}
+.headName	{color:white; font-size: 65px; font-family: 'Josefin Sans', sans-serif;}
+.headDesig{color:#a0a097; font-size: 45px; font-family: 'Cuprum', sans-serif;}
+.headAdd{color:#72726f; font-size: 35px; font-family: 'Cuprum', sans-serif;}
+.icon-background2 {color: #b2b2ad;}
+.downArrow{margin-left:50%; padding-top:10px; padding-bottom:10px;}

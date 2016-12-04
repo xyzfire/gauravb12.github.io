@@ -1,54 +1,211 @@
-<html>
-	<head>
-		<title> Gaurav Bhatt</title>
-		<link rel='shortcut icon' href='uiet.png' type='image/x-icon'/ >
-		
-		<link rel="stylesheet" type="text/css" href="style.css"/>
-		<style type="text/css">
-			body{overflow:hidden;width:100%;background-color:#e6e6fa;}
-			#header{position:absolute;padding-top:10px;padding-bottom:10px;background-color:black;overflow:auto;width:99%;}
-			#main{position:absolute;top:55px;bottom:0px;width:100%;overflow:auto;}
-		</style>
+
+<!DOCTYPE html>
+	<html>
+		<head>
+		  <title>Bootstrap Example</title>
+		  <meta charset="utf-8">
+			<meta name="viewport" content="width=device-width, initial-scale=1">
+		  <link rel="stylesheet" href="bootstrap.min.css">
+		  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+		  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+			<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+			<link href="https://fonts.googleapis.com/css?family=Cuprum|Josefin+Sans|Pacifico|Play|Pontano+Sans|Raleway|Satisfy" rel="stylesheet">
+		  <link rel="stylesheet" href="style.css">
 	</head>
 
 	<body>
-		<div id="header" align="center">
-			<a href="#home">Home  &nbsp; </a>
-			<a href="#academics">&nbsp;  Academics  &nbsp;</a>
-			<a href="#resume">&nbsp;  Resume  &nbsp;</a>
-			<a href="#contact">&nbsp;  Contact  </a>
+		<nav class="navbar navbar-inverse navbar-fixed-top" style="background-color:#020104;">
+		  <div class="container">
+		    <div class="navbar-header">
+		        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+		          <span class="icon-bar"></span>
+		          <span class="icon-bar"></span>
+		          <span class="icon-bar"></span>
+		      </button>
+		      <a class="navbar-brand nvb" href="#">GB</a>
+		    </div>
+		    <div>
+		      <div class="collapse navbar-collapse" id="myNavbar" style="float:right;">
+		        <ul class="nav navbar-nav">
+		          <li><a href="#home">Home</a></li>
+		          <li><a href="#about">About Me</a></li>
+		          <li><a href="#skills">Skills</a></li>
+							<li><a href="#projects">Projects</a></li>
+							<li><a href="#resume">Resume</a></li>
+							<li><a href="#contact">Contact</a></li>
+		        </ul>
+		      </div>
+		    </div>
+		  </div>
+		</nav>
+
+		<div id="home">
+			<div class="container">
+			<div class="row">
+
+				<div class="col-sm-8" style="margin-top:50px;">
+					<div class="headName">Gaurav Bhatt</div><br>
+					<div class="headDesig">Full Stack Developer | Student</div><br>
+					<div class="headAdd">Panjab University, Chandigarh, India.</div><br>
+					<div>
+						<a href="https://www.linkedin.com/in/gaurav-bhatt-8a567782" title="Linkedin"><span class="fa-stack fa-2x">
+  						<i class="fa fa-circle fa-stack-2x icon-background2"></i>
+  						<i class="fa fa-linkedin fa-stack-1x"></i>
+						</span></a>
+						<a href="https://github.com/gauravb12" title="GitHub"><span class="fa-stack fa-2x">
+  						<i class="fa fa-circle fa-stack-2x icon-background2"></i>
+  						<i class="fa fa-github fa-stack-1x"></i>
+						</span></a>
+						<a href="https://plus.google.com/101033952057789948517" title="Google Plus"><span class="fa-stack fa-2x">
+  						<i class="fa fa-circle fa-stack-2x icon-background2"></i>
+  						<i class="fa fa-google-plus fa-stack-1x"></i>
+						</span></a>
+						<a href="https://www.facebook.com/gaurav.bhatt.7545" title="Facebook"><span class="fa-stack fa-2x">
+  						<i class="fa fa-circle fa-stack-2x icon-background2"></i>
+  						<i class="fa fa-facebook fa-stack-1x"></i>
+						</span></a>
+						<a href="mailto:bgaurav015@gmail.com" title="E-Mail"><span class="fa-stack fa-2x">
+  						<i class="fa fa-circle fa-stack-2x icon-background2"></i>
+  						<i class="fa fa-envelope fa-stack-1x"></i>
+						</span></a>
+					</div>
+				</div>
+				<div class="col-sm-3">
+					<img src="gaurav.jpg" class="img img-circle" alt="Gaurav Bhatt" title="Gaurav Bhatt" height=300px; width=300px; style="display:block; margin-left:auto; margin-right:auto; margin-top:50px; border:10px solid white;">
+				</div>
+			</div>
+			<br><br><br>
+			<a href="#about" class="downArrow"><p class="fa fa-angle-double-down fa-3x"></p></a>
+			<br><br><br>
+			</div>
 		</div>
 
-		<div id="main">
-			
-			<div id="home" align="center"><br><br><br>You have arrived at the Home Page of ...</div><br><br>
-			<div id="name" align="center">GAURAV BHATT</div><br><br>
-			<div id="intro" align="center">I am a Bachelor of Engineering (B.E.) in Information Technology Engineering, first year undergraduate student from <br><br> <strong>University Institute of Engineering and Technology, Panjab University.</strong></div><br><br><br>
-			<div id="intro" align="center">I am from <strong>Gorakhpur, Uttar Pradesh, India.</strong></div> <br><br><br>
-			<div id="intro" align="center">My major areas of interest are <br><br> Programming and Photography</div><br><br><br>
-			<div id="intro" align="center">To get quick access, please go through the navigation bar, at the top.</div><br><br>
-			<hr/>
-			<div id="academics" align="center">ACADEMICS</div>
-			<hr/><br>
-			<div id="intro" align="center">Secured 88.6% in +2 examination (2014)</div><br>
-			<div id="intro" align="center">Secured 85.8% in Matric examination (2012)</div><br><br>
-			<hr/>
-			<div id="resume" align="center">RESUME</div>
-			<hr/><br>
-			<div id="intro" align="center">To get the resume in pdf, please <a href="resume1.pdf" target="_blank"><div id="splink" align="center">Click Here!</div></a></div><br><br>
-			<hr/>
-			<div id="contact" align="center">CONTACT</div>
-			<hr/><br>
-			<div id="intro" align="center">Facebook : </div><br><br>
-			<a href="https://www.facebook.com/gaurav.bhatt.7545" target="_blank"><div id="img" align="center"><img src="facebook.jpg" alt="Facebook" height="50px" width="50px"></div></a>
+		<div id="about">
+			<div class="container">
+					<div class="headTag">#aboutme</div><br>
+					<div class="cont" style="width:80%; margin-left:10%;">I am from Gorakhpur City in Uttar Pradesh, India, pursuing my Bachelor of Engineering(B.E.) second year in Information Technology from UIET, Panjab University, Chandigarh.<br>
+						<br>My Interests include :<br><br>
+					</div>
+						<div class="row cont"><b>
+							<div class="col-sm-2"></div>
+							<div class="col-sm-2 interest-block"><br><i class="fa fa-code fa-5x" aria-hidden="true"></i><br><br>CODING<br><br></div>
+							<div class="col-sm-1"></div>
+							<div class="col-sm-2 interest-block"><br><i class="fa fa-camera fa-5x" aria-hidden="true"></i><br><br>PHOTOGRAPHY<br><br></div>
+							<div class="col-sm-1"></div>
+							<div class="col-sm-2 interest-block"><br><i class="fa fa-music fa-5x" aria-hidden="true"></i><br><br>LISTENING MUSIC<br><br></div></b>
+							<div class="col-sm-2"></div>
+						</div>
+					<br>
+			</div>
+		</div>
+
+		<div id="skills">
+			<div class="container">
+					<div class="headTag">#skills</div><br>
+					<div class="contHead">CODING SKILLS</div>
+						<div class="cont">
+							Turning Coffee into Codes with Music as a catalyst, is my favourite job! Here are the programming languages that I have practised and coded in:<br><br>
+							<i class="fa fa-circle fa-xs" aria-hidden="true"></i>C/C++ Programming &nbsp; <i class="fa fa-circle" aria-hidden="true"></i>Python <br><br>
+							<i class="fa fa-circle" aria-hidden="true"></i>HTML-CSS &nbsp; <i class="fa fa-circle" aria-hidden="true"></i>JavaScript &nbsp; <i class="fa fa-circle" aria-hidden="true"></i>PHP &nbsp; <i class="fa fa-circle" aria-hidden="true"></i>MySQL<br><br>
+							<i class="fa fa-circle" aria-hidden="true"></i>Linux(Ubuntu) <br><br>
+							<b>Designing Softwares :  	</b><i class="fa fa-circle" aria-hidden="true"></i>Adobe Pagemaker &nbsp; <i class="fa fa-circle" aria-hidden="true"></i>Adobe Photoshop <br><br>
+							I love Web development and work as a full stack developer. Please refer to the <a href="#projects">projects section</a> for some of the samples.<br><br><br><br>
+						</div>
+
+			</div>
+		</div>
+
+		<div id="projects">
+			<div class="container">
+					<div class="headTag">#projects</div><br><br>
+					<div class="row">
+						<div class="col-sm-4 cont-project">
+							<img src="bharoform.jpg" title="Project:Bharoform.com" height=200px; width=200px;><br><br>
+							Full Stack Developer and Co-founder at BharoForm.com<br> A startup which helps students, in filling all of their forms taking their details once.<br><b>Check Here : <a href="http://bharoform.com" target="_blank">http://bharoform.com</a></b><br>
+						</div>
+						<div class="col-sm-4 cont-project">
+							<img src="dig.png" title="Project:uietdig.in" height=200px; width=200px;><br><br>
+							Developed and Maintaning the Design and Innovation Group(College's Technical Committee)'s website.<br><b>Check Here : <a href="http://uietdig.in" target="_blank">http://uietdig.in</a></b><br>
+						</div>
+						<div class="col-sm-4 cont-project">
+							<img src="bank.png" title="Project:EasyBanking" height=200px; width=200px;><br><br>
+							Working on a PHP-MySQL project which will have all the banking features including the Bank official and cusotmer's(Internet Banking) login end. Soon to be put on GitHub.<br>
+						</div>
+					</div>
+					<br><br><br>
+			</div>
+		</div>
+
+		<div id="resume">
+			<div class="container">
+					<div class="headTag">#resume</div><br><br><br>
+					<span class="resume-link"><a href="#">Click here to download the Resume!</a></span><br><br><br><br>
+			</div>
+		</div>
+
+		<div id="contact">
+			<div class="container">
+					<div class="headTag">#contact</div><br>
+					<div class="contHead">Gaurav Bhatt</div>
+					<div class="cont">Panjab University, Chandigarh, India.</div><br><br><br><br>
+					<div>
+						<a href="https://www.linkedin.com/in/gaurav-bhatt-8a567782" title="Linkedin"><span class="fa-stack fa-2x">
+  						<i class="fa fa-circle fa-stack-2x icon-background2"></i>
+  						<i class="fa fa-linkedin fa-stack-1x"></i>
+						</span></a>
+						<a href="https://github.com/gauravb12" title="GitHub"><span class="fa-stack fa-2x">
+  						<i class="fa fa-circle fa-stack-2x icon-background2"></i>
+  						<i class="fa fa-github fa-stack-1x"></i>
+						</span></a>
+						<a href="https://plus.google.com/101033952057789948517" title="Google Plus"><span class="fa-stack fa-2x">
+  						<i class="fa fa-circle fa-stack-2x icon-background2"></i>
+  						<i class="fa fa-google-plus fa-stack-1x"></i>
+						</span></a>
+						<a href="https://www.facebook.com/gaurav.bhatt.7545" title="Facebook"><span class="fa-stack fa-2x">
+  						<i class="fa fa-circle fa-stack-2x icon-background2"></i>
+  						<i class="fa fa-facebook fa-stack-1x"></i>
+						</span></a>
+						<a href="mailto:bgaurav015@gmail.com" title="E-Mail"><span class="fa-stack fa-2x">
+  						<i class="fa fa-circle fa-stack-2x icon-background2"></i>
+  						<i class="fa fa-envelope fa-stack-1x"></i>
+						</span></a>
+					</div>
+			</div>
+		</div>
+<br><br><br><br><br><br>
+		<footer class="foot">
+			<br>Created, Designed and Developed by Gaurav Bhatt.<br><br>
+		</footer>
 
 
-			
+		<script>
+		$(document).ready(function(){
+		  // Add scrollspy to <body>
+		  $('body').scrollspy({target: ".navbar", offset: 50});
 
+		  // Add smooth scrolling on all links inside the navbar
+		  $("#myNavbar a").on('click', function(event) {
+		    // Make sure this.hash has a value before overriding default behavior
+		    if (this.hash !== "") {
+		      // Prevent default anchor click behavior
+		      event.preventDefault();
 
+		      // Store hash
+		      var hash = this.hash;
 
+		      // Using jQuery's animate() method to add smooth page scroll
+		      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+		      $('html, body').animate({
+		        scrollTop: $(hash).offset().top
+		      }, 800, function(){
 
+		        // Add hash (#) to URL when done scrolling (default click behavior)
+		        window.location.hash = hash;
+		      });
+		    }  // End if
+		  });
+		});
+		</script>
 
-            	</div>
 	</body>
 </html>
