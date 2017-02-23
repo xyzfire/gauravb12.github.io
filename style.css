@@ -13,7 +13,7 @@ body{font-family:'Raleway', sans-serif;}
 .foot{text-align: center; font-family: 'Pontano Sans', sans-serif; font-size:18px; color: #d14b04; background-color: #030104;}
 #home {padding-top:100px; background-image: url('typewriter.png'); background-repeat: no-repeat; background-size: cover;}
 #about {padding-top:100px;text-align: center;}
-#skills {padding-top:100px;text-align: center; background-color: #f9f9d1;}
+#skills {padding-top:100px;text-align: center; background-color: #e0e0e0;}
 #projects {padding-top:100px;text-align: center;}
 #resume {padding-top:100px;text-align: center; background-color: #f4e6e6;}
 #contact {padding-top:100px;text-align: center;}
